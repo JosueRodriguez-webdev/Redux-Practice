@@ -10,7 +10,7 @@ import {postPlayer} from '../actions'
          nickname: ''
      })
 
-    const inputHandler=e=> {
+    const inputHandler = e=> {
         setPlayer({[e.target.name]: e.target.value})
     }
 
